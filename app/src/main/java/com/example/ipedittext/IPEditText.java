@@ -84,6 +84,7 @@ public class IPEditText extends LinearLayout {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 //若长度为0，返回到上一个文本编辑框
                 if(s.toString().length() == 0){
+                    //编辑框获取焦点
                     firIPEdit.setFocusable(true);
                     firIPEdit.requestFocus();
                 }
