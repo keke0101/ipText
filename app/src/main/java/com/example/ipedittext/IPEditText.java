@@ -209,7 +209,7 @@ public class IPEditText extends LinearLayout {
                 || TextUtils.isEmpty(thirdIP) || TextUtils.isEmpty(fourthIP)){
             return  null;
         }
-        return  firstIP + "." + secondIP + "." + thirdIP + "." + fourthIP + ".";
+        return  firstIP + "." + secondIP + "." + thirdIP + "." + fourthIP;
     }
 
     /**
